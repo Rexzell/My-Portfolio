@@ -16,7 +16,7 @@ a{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	flex-align: center;
+	text-align: center;
 	flex-direction: row;
 }
 
@@ -66,11 +66,6 @@ a{
 
 .bg3{
 	background: url(Project3.jpg) no-repeat center center;
-	background-size: cover;
-}
-
-.bg4{
-	background: url(Project4.png) no-repeat center center;
 	background-size: cover;
 }
 
