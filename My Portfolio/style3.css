@@ -74,6 +74,11 @@ a{
 	background-size: cover;
 }
 
+.bg5{
+	background: url(Project5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
 section{
 	position: relative;
 	widows: 100%;
