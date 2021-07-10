@@ -63,6 +63,12 @@ section .content a{
 	font-size: 0.95em;
 	font-weight: 700;
 	letter-spacing: 2px;
+	transition: .5s;
+}
+
+section .content a:hover{
+	background: #9AD3E6;
+	transition: .5s;
 }
 
 section .imgBox{
@@ -96,10 +102,12 @@ section .imgBox img{
 	color: #999;
 	margin-right: 30px;
 	font-size: 0.9em;
+	transition: .5s;
 }
 
 .sci li a:hover{
 	color: #FFF;
+	transition: .5s;
 }
 
 .nav{
@@ -112,6 +120,7 @@ section .imgBox img{
 	animation: left-in 0.5s ease-in forwards;
 	animation-delay: 0s;
 	opacity: 0;
+	transition: .5s;
 }
 
 .nav li{
@@ -125,11 +134,13 @@ section .imgBox img{
 	font-size: 0.9em;
 	text-transform: uppercase;
 	font-weight: 700;
+	transition: .5s;
 }
 
 .nav li a.active,
 .nav li a:hover{
 	color: #ADD8E6;
+	transition: .5s;
 }
 
 @keyframes fade-in{

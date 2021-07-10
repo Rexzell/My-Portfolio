@@ -99,6 +99,11 @@ a{
 	background-size: cover;
 }
 
+.bg10{
+	background: url(Project10.jpg) no-repeat center center;
+	background-size: cover;
+}
+
 section{
 	position: relative;
 	widows: 100%;
@@ -135,6 +140,7 @@ section .content h2{
 	animation: left-in 0.5s ease-in forwards;
 	animation-delay: 0s;
 	opacity: 0;
+	transition: .5s;
 }
 
 .nav li{
@@ -148,11 +154,13 @@ section .content h2{
 	font-size: 0.9em;
 	text-transform: uppercase;
 	font-weight: 700;
+	transition: .5s;
 }
 
 .nav li a.active,
 .nav li a:hover{
 	color: #ADD8E6;
+	transition: .5s;
 }
 
 @keyframes fade-in{
