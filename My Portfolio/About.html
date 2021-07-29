@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rexter</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
+	<link rel="stylesheet" type="text/css" href="about.css"/>
+</head>
+
+<body>
+	<section>
+		<div class="content">	
+			<div>
+				<h2>About Me:</h2>
+				<p>My name is John Rexzell G. Alip and 
+				I aspire to be a successful Web Developer someday. 
+				I've grown accustomed to making websites and I enjoy what I do 
+				and I have a lot of ideas in making different types 
+				of websites. I create my websites with dedication and passion and I always 
+				think of new ways on how to improve my web development skills.
+				</p>
+			</div>
+		</div>
+		
+		<div class="imgBox">
+		<img src="images/program.png"></img>
+		</div>
+		
+		<ul class="nav" id="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Projects.html">Projects</a></li>
+			<li><a href="#" class="active">About</a></li>
+		</ul>
+		
+		<ul class="sci">
+			<li><a href="https://web.facebook.com/johnrex.alip.7" target="_blank">Facebook</a></li>
+			<li><a href="https://github.com/Rexzell" target="_blank">Github</a></li>
+		</ul>
+	</section>
+	
+	<span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+	
+	<script type="text/javascript">
+		function menuToggle(){
+			var nav = document.getElementById("nav");
+			nav.classList.toggle('active')
+			
+			var toggle = document.getElementById("toggle");
+			toggle.classList.toggle('active')
+		}
+	</script>
+</body>
+
+</html>

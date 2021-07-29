@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rexter</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+	<section>
+		<div class="content">	
+			<div>
+				<h2>Rexzell Alip</h2>
+				<p>Hello and welcome to my website 
+				here you will see my different Website Projects.
+				I'm a student from STI College Lipa and I love 
+				making websites.</p>
+				<a href="About.html">Learn More</a>
+			</div>
+		</div>
+		
+		<div class="imgBox">
+		<img src="images/program.png"></img>
+		</div>
+		
+		<ul class="nav" id="nav">
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="Projects.html">Projects</a></li>
+			<li><a href="About.html">About</a></li>
+		</ul>
+		
+		<ul class="sci">
+			<li><a href="https://web.facebook.com/johnrex.alip.7" target="_blank">Facebook</a></li>
+			<li><a href="https://github.com/Rexzell" target="_blank">Github</a></li>
+		</ul>
+	</section>
+	
+	<span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+	
+	<script type="text/javascript">
+		function menuToggle(){
+			var nav = document.getElementById("nav");
+			nav.classList.toggle('active')
+			
+			var toggle = document.getElementById("toggle");
+			toggle.classList.toggle('active')
+		}
+	</script>
+</body>
+
+</html>

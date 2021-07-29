@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rexter</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
+	<link rel="stylesheet" type="text/css" href="projects.css"/>
+</head>
+
+<body>
+		<section>
+		<div class="container">
+			<a class="box bg1 mainbox" href="https://shopz.netlify.app/" target="_blank">
+				<div class="box-sub">Shopz</div>
+			</a>
+			
+			<a class="box bg2 mainbox" href="https://aquarine.netlify.app" target="_blank">
+				<div class="box-sub">Aquarine</div>
+			</a>
+			
+			<a class="box bg3 mainbox" href="https://covid-19-tracker-1.netlify.app" target="_blank">
+				<div class="box-sub">COVID-19 Tracker</div>
+			</a>
+			
+			<a class="box bg4" href="https://babble1.herokuapp.com/" target="_blank">
+				<div class="box-sub">Babble</div>
+			</a>
+
+			<a class="box bg5" href="https://tetriswithatwist.netlify.app" target="_blank">
+				<div class="box-sub">Tetris with a Twist</div>
+			</a>
+			
+			<a class="box bg6" href="https://intergalactic-horde.netlify.app" target="_blank">
+				<div class="box-sub">Intergalactic Horde</div>
+			</a>
+			
+			<a class="box bg7" href="https://parallaxify.netlify.app" target="_blank">
+				<div class="box-sub">Parallaxify</div>
+			</a>
+
+			<a class="box bg8" href="https://videochatly.netlify.app" target="_blank">
+				<div class="box-sub">Videochatly</div>
+			</a>
+
+			<a class="box bg9" href="#">
+				<div class="box-sub">Coming Soon</div>
+			</a>
+		</div>
+		
+		<ul class="nav" id="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#" class="active">Projects</a></li>
+			<li><a href="About.html">About</a></li>
+		</ul>
+	</section>
+	
+	<span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+	
+	<script type="text/javascript">
+		function menuToggle(){
+			var nav = document.getElementById("nav");
+			nav.classList.toggle('active')
+			
+			var toggle = document.getElementById("toggle");
+			toggle.classList.toggle('active')
+		}
+	</script>
+</body>
+
+</html>
