@@ -94,6 +94,11 @@ a{
 	background-size: cover;
 }
 
+.bg9{
+	background: url(images/Project9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
 section{
 	position: relative;
 	widows: 100%;
