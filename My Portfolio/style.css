@@ -64,6 +64,7 @@ section .content a{
 	font-weight: 700;
 	letter-spacing: 2px;
 	transition: .5s;
+	border-radius: 2px;
 }
 
 section .content a:hover{
