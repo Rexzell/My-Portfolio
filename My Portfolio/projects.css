@@ -43,7 +43,7 @@ a{
 .box-sub{
 	width: 100%;
 	height: 30%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.8);
 	line-height: 90px;
 	display: flex;
 	justify-content: center;
@@ -55,47 +55,32 @@ a{
 }
 
 .bg1{
-	background: url(images/Project1.jpg) no-repeat center center;
+	background: url(images/philippineBudgetTracker.jpg) no-repeat center center;
 	background-size: cover;
 }
 
 .bg2{
-	background: url(images/Project2.jpg) no-repeat center center;
+	background: url(images/travelverse.png) no-repeat center center;
 	background-size: cover;
 }
 
 .bg3{
-	background: url(images/Project3.jpg) no-repeat center center;
+	background: url(images/foodieRecipe.png) no-repeat center center;
 	background-size: cover;
 }
 
 .bg4{
-	background: url(images/Project4.jpg) no-repeat center center;
+	background: url(images/aquarine.jpg) no-repeat center center;
 	background-size: cover;
 }
 
 .bg5{
-	background: url(images/Project5.jpg) no-repeat center center;
+	background: url(images/parallaxify.png) no-repeat center center;
 	background-size: cover;
 }
 
 .bg6{
 	background: url(images/Project6.jpg) no-repeat center center;
-	background-size: cover;
-}
-
-.bg7{
-	background: url(images/Project7.jpg) no-repeat center center;
-	background-size: cover;
-}
-
-.bg8{
-	background: url(images/Project8.jpg) no-repeat center center;
-	background-size: cover;
-}
-
-.bg9{
-	background: url(images/Project9.jpg) no-repeat center center;
 	background-size: cover;
 }
 
