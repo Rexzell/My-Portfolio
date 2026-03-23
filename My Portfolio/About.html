@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rexter</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
+	<link rel="stylesheet" type="text/css" href="about.css"/>
+</head>
+
+<body>
+	<section>
+		<div class="content">	
+			<div>
+				<h2>About Me:</h2>
+				<p>
+					A dedicated web developer skilled in both frontend and backend 
+					technologies, with a strong ability to create and manage websites 
+					effectively. Committed to adapting to the company’s programming 
+					languages and frameworks while maintaining efficient communication 
+					with team members. Proficient in collaborating on group projects 
+					and delivering high-quality results on individual tasks.
+				</p>
+			</div>
+		</div>
+		
+		<div class="imgBox">
+		<img src="images/program.png"></img>
+		</div>
+		
+		<ul class="nav" id="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Projects.html">Projects</a></li>
+			<li><a href="#" class="active">Profile</a></li>
+		</ul>
+
+		<ul class="sci">
+			<li><a href="https://github.com/Rexzell" target="_blank">Github</a></li>
+		</ul>
+	</section>
+	
+	<span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+	
+	<script type="text/javascript">
+		function menuToggle(){
+			var nav = document.getElementById("nav");
+			nav.classList.toggle('active')
+			
+			var toggle = document.getElementById("toggle");
+			toggle.classList.toggle('active')
+		}
+	</script>
+</body>
+
+</html>
