@@ -13,5 +13,4 @@ A personal portfolio featuring a variety of projects that demonstrate my technic
 - Showcases my web projects
 
 ## How to Run
-# Clone the repository
-git clone <repository-url>
+Open the index.html file in any web browser.
