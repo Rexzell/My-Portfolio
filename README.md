@@ -1,5 +1,5 @@
 ## Description
-A simple web app built with React that [what it does].
+A personal portfolio featuring a variety of projects that demonstrate my technical skills, creativity, and development experience.
 
 ## Tech Stack
 - HTML
