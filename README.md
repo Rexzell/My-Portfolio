@@ -9,7 +9,8 @@ A personal portfolio featuring a variety of projects that demonstrate my technic
 ## Features
 - Responsive UI
 - User-friendly interface
-- My Projects
+- Animated UI elements
+- Showcases my web projects
 
 ## How to Run
 Open the `index.html` file in any web browser.
